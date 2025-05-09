@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Productos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Productos</h1>
+  <div id="formulario">
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="text" id="descripcion" placeholder="Descripción">
+    <input type="number" id="precio" placeholder="Precio">
+    <button onclick="ui.agregarProducto()">Agregar</button>
+  </div>
+  <ul id="listaProductos"></ul>
+  <script src="js/data.js"></script>
+  <script src="js/service.js"></script>
+  <script src="js/ui.js"></script>
+</body>
+</html>
